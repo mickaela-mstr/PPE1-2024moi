@@ -1,14 +1,13 @@
 Journal de bord du projet encadré
-##
 
-La semaine dernière (le 25/09/2024):
+## La semaine dernière (le 25/09/2024):
 
 Premier cours de PPE.
 J'appréhendais car je n'ai pas beaucoup de notions en informatique. Mais finalement, j'ai réussi à plutôt bien suivre. Le premier exercice nous a servi à manipuler bash et à trier des dossiers via le terminal afin de nous familiariser avec des commandes simples. J'ai bien apprécié cet exercice car manipuler le terminal me faisait un peu peur au début, mais maintenant ça va beaucoup mieux.
 Ça m'a appris à chercher des raccourcis parce que quand j'ai vu la correction en même pas 30 commandes c'étais réglé ALORS QUE MOI J'EN AI FAIT 400+!!!!! Je me suis rendue compte que j'étais vraiment pas très efficace (la honte).
 Mais bon je suppose qu'on doit tous commencer quelque part? Bref, je ne me rappelle plus de tous les soucis que j'ai eu car c'était y'a un peu plus d'une semaine. Mais le point positif à réécrire plus de 400 fois les même commandes c'est que j'ai fini par les retenir!
 
-Aujourd'hui, le 05/10/2024:
+## Aujourd'hui, le 05/10/2024:
 
 À la suite de notre deuxième cours en PPE, nous avons été introduit au site Github. Il a été donné comme exercice de créer notre propre dépôt dessus et de le synchroniser avec notre ordinateur. J'ai commencé à le faire après les cours le jour même, dans l'optique de m'avancer pour les devoirs de la semaine.
 Au début, je dois avouer que j'étais assez perdue (ce n'est évidemment pas la faute de nos supers profs mais celle de mon cerveau à capacité limitée). Mais en suivant les consignes de l'exercice, j'ai finalement réussi à créer mon dépôt et mon journal assez rapidement.
