@@ -27,11 +27,12 @@ A partir de là tout allait mieux, sauf qu'après, j'oubliais constamment d'upda
 Voilà c'est tout pour les aventures de cette semaine, je m'en vais maintenant faire la deuxième fiche sur la correction de boulettes sur git (ça devrait aller vu que je m'y connais bien en bêtises).
 
 #Séance 3
-##exerices git                                                                               corrections d'erreurs.
+##exerices git                                                                               corrections d'erreurs.on va mettre cette ligne de côté.
 
 Cette ligne doit rester après correction.
 
 Suite journal de bord du 14/10/2024
 
 Je suis actuellement entrain de patauger dans l'exercice de correction des erreurs git mais c'est pas grave on est là et on va s'en sortir :)
+
 
