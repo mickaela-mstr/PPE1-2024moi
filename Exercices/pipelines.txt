@@ -1,0 +1,25 @@
+Commandes exerice 1.a
+ 1240  cd Documents/PPE/PPE1-2024moi/
+ 1241  ls
+ 1242  mkdir Exercices
+ 1243  cd Exercices
+ 1244  cd ..
+ 1245  cd 'TD 1'/ann/2016
+ 1246  cd 'TD 1'/Exercice1/ann/2016/
+ 1247  echo "Annotations en 2016" > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/comptes.txt
+ 1248  cat */*.ann |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/comptes.txt
+ 1249  echo "Annotations en 2017" >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/comptes.txt
+ 1250  cd ..
+ 1251  cd 2017
+ 1252  cat */*.ann |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/comptes.txt
+ 1253  echo "Annotations en 2018" >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/comptes.txt
+ 1254  cd ..
+ 1255  cd 2018
+ 1256  cat */*.ann |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/comptes.txt
+ 1257  history
+ 1259  history | sed -n '1240,1257p' | cut -c 8- >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1260  history | sed -n '1240,1257p' | cut -c 8- > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1261  history | grep -E '1240|1257'
+ 1262  history | sed -n '/1205/,/1227/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1263  history | sed -n '/1240/,/1257/p' > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1265  history | sed -n '/1240/,/1257/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
