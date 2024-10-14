@@ -28,9 +28,6 @@ Voilà c'est tout pour les aventures de cette semaine, je m'en vais maintenant f
 
 #Séance 3
 ##exerices git
-J'ajoute quelques lignes bidons. blablablojùsfomuerghôzfmdguirelgt*ĥoqjsfguomzhtiogneszmighm$ùrismbhmfo!sbjjgbi!pshipmj:dhfvjjosmhbzmegihjqps^*dg
-fsdgvlzev:vuoeggomzvt
-
-fvheflrezoghij*zpGNPùkhkp^*n
 
 Cette ligne doit rester après correction.
+
