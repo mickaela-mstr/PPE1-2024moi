@@ -23,3 +23,27 @@ Commandes exerice 1.a
  1262  history | sed -n '/1205/,/1227/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
  1263  history | sed -n '/1240/,/1257/p' > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
  1265  history | sed -n '/1240/,/1257/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+Commandes exercice 1.b
+ 1270  cd Documents/PPE/PPE1-2024moi/
+ 1271  git status
+ 1272  git add Exercices
+ 1273  git commit -m "Ajout de l'exercice 1.a"
+ 1274  git push
+ 1275  cd 'TD 1'/Exercice1/ann/2016/
+ 1276  echo "Annotations lieux 2016" > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1277  cat */*/* | grep 'Location' |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1278  cat * | grep 'Location' |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1279  cat */* | grep 'Location' |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1280  echo "Annotations lieux 2016" > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1281  cat */* | grep 'Location' |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1282  echo "Annotations lieux 2017" >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1283  cd ..
+ 1284  cd 2017
+ 1285  cat */* | grep 'Location' |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1286  echo "Annotations lieux 2018" >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1287  cd ..
+ 1288  cd 2018
+ 1289  cat */* | grep 'Location' |  wc -l >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/locations.txt
+ 1290  history
+ 1292  history | sed -n '1270p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1293  history | sed -n '/1270/,/1290/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
