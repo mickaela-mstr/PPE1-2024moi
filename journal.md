@@ -27,7 +27,7 @@ A partir de là tout allait mieux, sauf qu'après, j'oubliais constamment d'upda
 Voilà c'est tout pour les aventures de cette semaine, je m'en vais maintenant faire la deuxième fiche sur la correction de boulettes sur git (ça devrait aller vu que je m'y connais bien en bêtises).
 
 #Séance 3
-##exerices git
+##exerices git                                                                               corrections d'erreurs.
 
 Cette ligne doit rester après correction.
 
