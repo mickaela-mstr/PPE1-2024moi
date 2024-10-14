@@ -35,4 +35,15 @@ Suite journal de bord du 14/10/2024
 
 Je suis actuellement entrain de patauger dans l'exercice de correction des erreurs git mais c'est pas grave on est là et on va s'en sortir :)
 
+Réponses aux questions de la fiche:
+2)
+b. J'ai utilisé la commnde git reset <SHA>. Au début, cela ne fonctionnait pas car ça créait un conflit avec la version locale du journal. Je devais supprimer manuellement le commit que voulais revert? (je ne comprenais pas car je pensais que la simple utlisation de la commande revert allait enlever les modification effectuées sur le journal). Après j'ai add et commit le journal pour enfin continuer le revert (utilisation de la commande git revert --continue).
+
+3)
+b. La grande différence selon moi est que le commit est déjà poussé dans l'exercice 2 et quon veut le supprmier sans toucher au reste. Il faut donc créer un nouveau commit pour corriger les erreurs. J'ai l'impression qu'il est plus simple de créer un conlfit avec la commande git revert dû aux confusions que cela peut amener. Pour l'exercice 3, il s'agit de modifier avant d'update sur git. Ainsi on ne crée pas de nouveau commit mais on change l'état du dépôt avant de push.
+
+4)
+b. J'ai utilisé git fetch puis git status pour voir si j'étais à jour avec le dépôt en ligne. Ensuite, j'ai git pull pour essayer de récupérer la version en ligne sur le dépôt local, mais ça a créé un conflit car j'ai effectué deux changements différents sur la même ligne dans le local et en ligne.
+Pour garder de côté les changements effectués en local, j'ai utilisé la commande git stash save "conservations des changements séance 3". Je pouvais ainsi récupérer effectivement les modifications en ligne, après j'ai utilisé git stash pop pour appliqué les changement gardés en réserve. Pour voir les modification mises de côté j'ai fait git stash list.
+
 
