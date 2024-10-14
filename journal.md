@@ -17,3 +17,11 @@ Viens alors aujourd'hui, comme tous les samedis depuis le début des cours, je m
 Bref, je leur explique mon soucis et je me rends compte de ma bêtise, je renomme ainsi mon respository en PPE1-2024moi, comme ça on sait que c'est à moi.
 Je fais git clone et je copie mon url SSH et j'ai enfin accès à mon journal sur lequel j'écris mes fabuleuses aventures en ce moment même.
 Je m'en vais de ce pas gitpush mon journal afin que vous puissiez me lire :) (évidemment d'abord je vais git add, git commit et enfin git push!!)
+
+Aujourd'hui, le 14/10/2024 :
+
+Lors de la 3ème séance, nous avons été introduit aux notions de pipelines. Comme d'habitude, j'étais perdue, mais c'est pas pour autant que je me suis découragée.
+Pour les exercices de cette semaine, j'ai ragé pas mal de fois car j'avais du mal avec la syntaxe pour combiner les commandes et SURTOUT j'arrivais pas à écrire à la suite dans mes fihciers. A chaque fois que j'écrivias une commande pour mettre à jour (par exemple pour ajouter le nombre d'annotations en 2017 après avoir ajouter pour 2016) ça m'effaçait tout!!!!! Si je savais lire correctement le cours, j'aurais su qu'il fallait simplement doubler ces trucs là ">" pour éviter ce soucis. Faut pas juger svp.
+A partir de là tout allait mieux, sauf qu'après, j'oubliais constamment d'update le fichier pipelines pour montrer les commandes utlisées à chaque question... Donc, je poussais les fichiers comptes, locations etc... Et le fichier pipelines restait vide. Pour être honnête, quand je me suis rendue compte de ma bêtise, j'ai tout copié coller à la main dans un éditeur de texte car j'avais la flemme de faire une commande + je voulais pas montrer comment j'avais galérer (parce que j'avais honte (ça aurait été plus rapide aussi je sais MAIS PASSONS)) SAUF QUE!!! ça se voit quand on le push sur git... J'ai eu trop honte quand même et du coup j'ai utilisé la fameuse commande git reset --hard.
+ÇA M'A TOUT SUPPRIMÉ. (non j'ai vraiment été bête). Je voulais pleurer du coup je suis partie dormir et j'ai tout recommencé ce matin. HEUREUSEMENT la nuit porte conseil et tout s'est bien passé. Mais ça aura été une aventure mafoi fort rocambolesque.
+Voilà c'est tout pour les aventures de cette semaine, je m'en vais maintenant faire la deuxième fiche sur la correction de boulettes sur git (ça devrait aller vu que je m'y connais bien en bêtises).
