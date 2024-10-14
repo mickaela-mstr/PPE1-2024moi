@@ -32,3 +32,5 @@ J'ajoute quelques lignes bidons. blablablojùsfomuerghôzfmdguirelgt*ĥoqjsfguom
 fsdgvlzev:vuoeggomzvt
 
 fvheflrezoghij*zpGNPùkhkp^*n
+
+Cette ligne doit rester après correction.
