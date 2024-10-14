@@ -70,3 +70,16 @@ Commandes exercice 2.a
  1315  cat */*.ann | grep 'Location' | cut -f3 | sort | uniq -c | sort -nr | head -15 > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/classement_2018.txt 
  1316  history
  1318  history | sed -n '/1296/,/1316/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+Commandes exercice 2.b
+ 1318  history | sed -n '/1296/,/1316/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1326  history | sed -n '/1318/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1318  history | sed -n '/1296/,/1316/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1319  cd ..
+ 1320  git add Exercices
+ 1321  git commit -m "Ajout de l'exercice 2.a"
+ 1322  git push
+ 1323  cd 'TD 1'/Exercice1/ann/
+ 1324  cat */*/* | grep 'Location' | cut -f3 | sort | uniq -c | sort -nr | head -15 > /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/classement_novembre.txt 
+ 1325  echo "Commandes exercice 2.b" >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1326  history | sed -n '/1318/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
+ 1327  history | sed -n '/1318/,/1330/p' >> /home/mickaela/Documents/PPE/PPE1-2024moi/Exercices/pipelines.txt
