@@ -25,10 +25,3 @@ Pour les exercices de cette semaine, j'ai ragé pas mal de fois car j'avais du m
 A partir de là tout allait mieux, sauf qu'après, j'oubliais constamment d'update le fichier pipelines pour montrer les commandes utlisées à chaque question... Donc, je poussais les fichiers comptes, locations etc... Et le fichier pipelines restait vide. Pour être honnête, quand je me suis rendue compte de ma bêtise, j'ai tout copié coller à la main dans un éditeur de texte car j'avais la flemme de faire une commande + je voulais pas montrer comment j'avais galérer (parce que j'avais honte (ça aurait été plus rapide aussi je sais MAIS PASSONS)) SAUF QUE!!! ça se voit quand on le push sur git... J'ai eu trop honte quand même et du coup j'ai utilisé la fameuse commande git reset --hard.
 ÇA M'A TOUT SUPPRIMÉ. (non j'ai vraiment été bête). Je voulais pleurer du coup je suis partie dormir et j'ai tout recommencé ce matin. HEUREUSEMENT la nuit porte conseil et tout s'est bien passé. Mais ça aura été une aventure mafoi fort rocambolesque.
 Voilà c'est tout pour les aventures de cette semaine, je m'en vais maintenant faire la deuxième fiche sur la correction de boulettes sur git (ça devrait aller vu que je m'y connais bien en bêtises).
-
-#Séance 3
-##exerices git
-J'ajoute quelques lignes bidons. blablablojùsfomuerghôzfmdguirelgt*ĥoqjsfguomzhtiogneszmighm$ùrismbhmfo!sbjjgbi!pshipmj:dhfvjjosmhbzmegihjqps^*dg
-fsdgvlzev:vuoeggomzvt
-
-fvheflrezoghij*zpGNPùkhkp^*n
