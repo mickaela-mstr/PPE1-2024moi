@@ -1,5 +1,11 @@
 #!/usr/bin/bash
 
+if [ $# -ne 1 ]; then
+    echo "Erreur: 1 argument est nécessaire."
+    echo "Usage: $0 <Ville>"
+    exit 1
+fi
+
 Ville=$1
 
 nb_locations=$(cat /home/mickaela/Documents/PPE/PPE1-2024moi/TD1/Exercice1/ann/2016/*/*.ann | grep -c $Ville)

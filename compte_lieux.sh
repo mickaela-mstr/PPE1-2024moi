@@ -1,5 +1,11 @@
 #!/usr/bin/bash
 
+if [ $# -ne 3 ]; then
+    echo "Erreur: 3 arguments sont nécessaires."
+    echo "Usage: $0 <Annee> <Mois> <Nombre de lieux>"
+    exit 1
+fi
+
 Annee=$1
 Mois=$2
 nb_lieux=$3
