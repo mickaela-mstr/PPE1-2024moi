@@ -59,4 +59,14 @@ Après il y a une boucle while qui va lire chaque ligne d'un fichier. À chaque 
 
 À la fin de la boucle, je n'ai pas comrpis à quoi sert le "done < $FICHIER_URLS"... En tout cas, les résultats s'affichent avec un echo "$OK URLs et $NOK lignes douteuses".
 
+Aujourd'hui, le 11/11/2024 :
+
+Réponses exercice 1:
+
+1) La commande cat est utilisée pour afficher le contenu d’un fichier dans le terminal. Cela va simplement afficher tout le contenu de urls/fr.txt d'un coup dans le terminal, sans traitement spécial pour chaque ligne. Alors que la commande while read -r line; do ... done < "urls/fr.txt" commence une boucle qui lit une ligne du fichier à chaque tour, en stockant cette ligne dans la variable line (-r est une option qui empêche le traitement spécial des backslashes \, assurant que chaque ligne est lue "telle quelle"). Donc il est plus efficace de faire la boucle car à la fois on lit le fichier et on associe chaque ligne à une variable. Si on utlisait cat ça rajouterai une étape en plus car ça ne lirait que le fichier.
+
+2) Transformer "urls/fr.txt" en paramètre du script veut dire qu'on rend le script "flexible" et que le fichier n'est pas définit directement dedans mais qu'on peut le choisir en l'appelant. On permet à l’utilisateur de fournir le nom du fichier comme argument lorsqu’il lance le script. C'est à dire que "urls/fr.txt" va devenir $1 (voir script). On executerait le script avec ./miniprojet.sh urls/fr.txt et si on veut un autre fichier on ferait ./miniprojet.sh autre_fichier.txt
+
+2.1) 3) voir script.
+
 
