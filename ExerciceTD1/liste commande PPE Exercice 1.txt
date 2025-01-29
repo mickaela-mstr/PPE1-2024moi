@@ -1,0 +1,393 @@
+20  mkdir Exercice1
+   21  man mkdir
+   22  ls
+   23  cd Exercice1
+   24  wgethttp://plurital.org/ppe1/seance1/archive-35.zip
+   25  wget http://plurital.org/ppe1/seance1/archive-35.zip
+   26  ls
+   27  unzip archive-35.zip
+   28  mkdir txt
+   29  cd txt
+   30  mkdir 2016
+   31  cd 2016
+   32  tree
+   33  sudo apt install tree
+   34  tree
+   35  cd ..
+   36  tree
+   37  cd txt
+   38  cd 2016
+   39  ls 2016*
+   40  tree
+   41  cd..
+   42  cd ..
+   43  tree
+   44  mkdir 2017
+   45  mkdir 2018
+   46  tree
+   47  cd 2017
+   48  cd ..
+   49  ls
+   50  pwd
+   51  mv /home/mickaela/Exercice1/txt/2017_*.txt
+   52  mv /home/mickaela/Exercice1/2017_*.txt /home/mickaela/Exercice1/txt/2017
+   53  cd 2017
+   54  cd txt
+   55  cd 2017
+   56  tree
+   57  cd ..
+   58  cd txt
+   59  ls
+   60  mv /home/mickaela/Exercice1/2016_*.txt /home/mickaela/Exercice1/txt/2
+   61  cd 2016
+   62  tree
+   63  cd ..
+   64  cd txt
+   65  cd 2016
+   66  mkdir 01
+   67  cd..
+   68  cd ..
+   69  cd 2016
+   70  cd 01
+   71  cd ..
+   72  pwd
+   73  cd 01
+   74  pwd
+   75  ls
+   76  cd exercice 1
+   77  cd Exercice1
+   78  cd txt
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd txt
+   83  ls
+   84  cd 2016
+   85  ls
+   86  tree
+   87  pvd
+   88  pwd
+   89  mv /home/mickaela/Exercice1/2016_01_*.txt /home/mickaela/Exercice1/txt/2016/01
+   90  ls
+   91  cd Exercice1
+   92  cd txt
+   93  cd 2016
+   94  pwd
+   95  cd 01
+   96  pwd
+   97  mv /home/mickaela/Exercice1/2016_01_*.txt /home/mickaela/Exercice1/txt/2016/01
+   98  mv /home/mickaela/Exercice1/txt/2016/01 /home/mickaela/Exercice1/2016_01_*.txt
+   99  ls
+  100  ls 01
+  101  tree
+  102  cd ..
+  103  tree
+  104  cd txt
+  105  cd 2016
+  106  cd 01
+  107  tree
+  108  mkdir 01
+  109  tree
+  110  mv /home/mickaela/Exercice1/txt/2016/01 /home/mickaela/Exercice1/2016_01_*.txt
+  111  tree
+  112  ls
+  113  mv /home/mickaela/Exercice1/txt/2016/01 /home/mickaela/Exercice1/2016_01_*.txt
+  114  tree
+  115  ./
+  116  pwd
+  117  cd ..
+  118  tree
+  119  cd ..
+  120  tree
+  121  ls
+  122  cd Exercice 1
+  123  cd Exercice1
+  124  ls
+  125  cd txt
+  126  ls
+  127  tree
+  128  mv /home/mickaela/Exercice1/2018_*.txt /home/mickaela/Exercice1/txt/2018_01_*.txt
+  129  cd 2018
+  130  ls
+  131  mkdir 01
+  132  cd 01
+  133  pwd
+  134  cd ..
+  135  pwd
+  136  mv /home/mickaela/Exercice1/2018_01_*.txt /home/mickaela/Exercice1/txt/2018/01
+  137  tree
+  138  pwd
+  139  mv /home/mickaela/Exercice1/txt/2018_01_*.txt  /home/mickaela/Exercice1/txt/2018/01
+  140  cd 01
+  141  mv /home/mickaela/Exercice1/2018_01_*.txt /home/mickaela/Exercice1/txt/2018/01
+  142  ls
+  143  cd ..
+  144  mv /home/mickaela/Exercice1/2018_01_*.txt /home/mickaela/Exercice1/txt/2018/01
+  145  mv 2018_01* ./01
+  146  mv 2018_02* ./02
+  147  mkdir 02
+  148  cd 02
+  149  cd ..
+  150  mkdir 03
+  151  mkdir 04
+  152  mkdir 05
+  153  mkdir 06
+  154  mkdir 07
+  155  mkdir 08
+  156  mkdir 09
+  157  mkdir 10
+  158  mkdir 11
+  159  mkdir 12
+  160  mv 2018_02* ./02
+  161  mv 2018_03* ./03
+  162  mv 2018_04* ./04
+  163  mv 2018_05* ./05
+  164  mv 2018_06* ./06
+  165  mv 2018_07* ./07
+  166  mv 2018_08* ./08
+  167  mv 2018_09* ./09
+  168  mv 2018_10* ./10
+  169  mv 2018_11* ./11
+  170  mv 2018_12* ./12
+  171  tree
+  172  cd..
+  173  cd ..
+  174  cd 2017
+  175  tree
+  176  mkdir 01
+  177  mkdir 02
+  178  mkdir 03
+  179  mkdir 04
+  180  mkdir 05
+  181  mkdir 06
+  182  mkdir 07
+  183  mkdir 08
+  184  mkdir 09
+  185  mkdir 10
+  186  mkdir 11
+  187  mkdir 12
+  188  mv 2018_01* ./02
+  189  mv 2017_01* ./01
+  190  mv 2017_02* ./02
+  191  mv 2017_03* ./03
+  192  mv 2017_04* ./04
+  193  mv 2017_05* ./05
+  194  mv 2017_06* ./06
+  195  mv 2017_07* ./07
+  196  mv 2017_08* ./08
+  197  mv 2017_09* ./09
+  198  mv 2017_10* ./10
+  199  mv 2017_11* ./11
+  200  mv 2017_12* ./12
+  201  tree
+  202  cd ..
+  203  cd 2016
+  204  tree
+  205  mkdir 01
+  206  mkdir 02
+  207  mkdir 03
+  208  mkdir 04
+  209  mkdir 05
+  210  mkdir 06
+  211  mkdir 07
+  212  mkdir 08
+  213  mkdir 09
+  214  mkdir 10
+  215  mkdir 11
+  216  mkdir 12
+  217  mv 2016_01* ./01
+  218  mv 2016_02* ./02
+  219  mv 2016_03* ./03
+  220  mv 2016_04* ./04
+  221  mv 2016_05* ./05
+  222  mv 2016_06* ./06
+  223  mv 2016_07* ./07
+  224  mv 2016_08* ./08
+  225  mv 2016_09* ./09
+  226  mv 2016_10* ./10
+  227  mv 2016_11* ./11
+  228  mv 2016_12* ./ann
+  229  tree
+  230  cd ..
+  231  mkdir ann
+  232  pwd
+  233  cd ann
+  234  pwd
+  235  cd ..
+  236  ls
+  237  cd ann
+  238  mkdir 2016
+  239  mkdir 2017
+  240  mkdir 2018
+  241  cd 2016
+  242  mkdir 01
+  243  mkdir 02
+  244  mkdir 03
+  245  mkdir 04
+  246  mkdir 06
+  247  mkdir 07
+  248  mkdir 08
+  249  mkdir 09
+  250  mkdir 1à
+  251  rm 1à
+  252  cd 1à
+  253  rm 1à
+  254  cd ..
+  255  rm 1à
+  256  cd ..
+  257  rm 1à
+  258  cd 2016
+  259  rm -r 1à
+  260  rm -r 1à
+  261  mkdir 10 11 12
+  262  tree
+  263  mv 2016_01* ./01
+  264  mv 2016_*.ann ./ann
+  265  cd ..
+  266  mv 2016_*.ann ./ann
+  267  /home/mickaela/Exercice1/2016_*.ann /home/mickaela/Exercice1/ann/2016
+  268  -f /home/mickaela/Exercice1/2016_*.ann /home/mickaela/Exercice1/ann/2016
+  269  mv  /home/mickaela/Exercice1/2016_*.ann /home/mickaela/Exercice1/ann/2016
+  270  mv  /home/mickaela/Exercice1/2017_*.ann /home/mickaela/Exercice1/ann/2017
+  271  mv  /home/mickaela/Exercice1/2018_*.ann /home/mickaela/Exercice1/ann/2018
+  272  cd 2016
+  273  ls
+  274  mv 2016_01* ./01
+  275  mv 2016_02* ./02
+  276  mv 2016_03* ./03
+  277  mv 2016_0'* ./04
+  278  ls
+  279  cd Exercice1
+  280  cd ann
+  281  cd 2016
+  282  mv 2016_04* ./04
+  283  mv 2016_05* ./05
+  284  mv 2016_06* ./06
+  285  mv 2016_07* ./07
+  286  mv 2016_08* ./08
+  287  mv 2016_09* ./09
+  288  mv 2016_10* ./10
+  289  mv 2016_11* ./11
+  290  mv 2016_12* ./12
+  291  tree
+  292  cd ..
+  293  cd 2017
+  294  mv 2017_12* ./12
+  295  ls
+  296  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  297  mv 2017_12* ./12
+  298  mv 2017_11* ./11
+  299  mv 2017_10* ./10
+  300  mv 2017_09* ./09
+  301  mv 2017_08* ./08
+  302  mv 2017_07* ./07
+  303  mv 2017_06* ./06
+  304  mv 2017_05* ./05
+  305  mv 2017_04* ./04
+  306  mv 2017_03* ./03
+  307  mv 2017_02* ./02
+  308  mv 2017_01* ./01
+  309  ls
+  310  tree
+  311  cd ..
+  312  cd 2016
+  313  ls
+  314  tree
+  315  cd ..
+  316  cd 2018
+  317  ls
+  318  mv 2018_01* ./01
+  319  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  320  mv 2018_01* ./01
+  321  mv 2018_02* ./02
+  322  mv 2018_03* ./03
+  323  mv 2018_04* ./04
+  324  mv 2018_05* ./05
+  325  mv 2018_06* ./06
+  326  mv 2018_07* ./07
+  327  mv 2018_08* ./08
+  328  mv 2018_09* ./09
+  329* mv 2018_
+  330  mv 2018_10* ./1à
+  331  mv 2018_10* ./10
+  332  mv 2018_11* ./11
+  333  mv 2018_12* ./12
+  334  ls
+  335  tree
+  336  cd ..
+  337  mkdir img
+  338  cd img
+  339  mv  /home/mickaela/Exercice1/*.img /home/mickaela/Exercice1/img/
+  340  cd ..
+  341  ls
+  342  mv  /home/mickaela/Exercice1/*.jpg /home/mickaela/Exercice1/img/
+  343  cd img
+  344  ls
+  345  cd ..
+  346  ls
+  347  mv  /home/mickaela/Exercice1/*.jpeg /home/mickaela/Exercice1/img/
+  348  mv  /home/mickaela/Exercice1/*.JPG /home/mickaela/Exercice1/img/
+  349  mv  /home/mickaela/Exercice1/*.png /home/mickaela/Exercice1/img/
+  350  mv  /home/mickaela/Exercice1/*.svg /home/mickaela/Exercice1/img/
+  351  mv  /home/mickaela/Exercice1/*.gif /home/mickaela/Exercice1/img/
+  352  ls
+  353  mv  /home/mickaela/Exercice1/*.GIF /home/mickaela/Exercice1/img/
+  354  mv  /home/mickaela/Exercice1/*.PNG /home/mickaela/Exercice1/img/
+  355  mv  /home/mickaela/Exercice1/*.webp /home/mickaela/Exercice1/img/
+  356  cd img
+  357  mkdir Paris Berlin Washington Tokyo Taipei Rome Kyoto
+  358  cd Paris
+  359  mv Paris* ./Paris
+  360  mv Paris_* ./Paris
+  361  mv *-Paris_* ./Paris
+  362  cd ..
+  363  mv *-Paris_* ./Paris
+  364  mv *-Berlin_* ./Berlin
+  365  mv *-Washington_* ./Washington
+  366  mv *-Tokyo_* ./Tokyo
+  367  mv *-Taipei_* ./Taipei
+  368  mv *-Rome_* ./Rome
+  369  mv *-Kyoto_* ./Kyoto
+  370  ls
+  371  mv *-Kyoto* ./Kyoto
+  372  mv *-Rome* ./Rome
+  373  mv *-Taipei* ./Taipei
+  374  mv *-Tokyo* ./Tokyo
+  375  mv *-Washington* ./Washington
+  376  mv *-Berlin* ./Berlin
+  377  mv *-Paris* ./Paris
+  378  ls
+  379  tree
+  380  ls
+  381  cd ..
+  382  ls
+  383  cd 2016_01_*.txt
+  384  ls
+  385  cd O1
+  386  rm 01
+  387  rm -r 01
+  388  cd ..
+  389  rm -r 2016_01_*.txt
+  390  ls
+  391  cd ..
+  392  history
+  393  cd Exercice 1
+  394  cd Exercice1
+  395  ls
+  396  mkdir EnergieEolienne
+  397  cd EnergieEolienne
+  398  mkdir odt docx pdf
+  399  cd ..
+  400  rm -r EnergieEolienne
+  401  ls
+  402  mkdir docx odt pdf
+  403  mv EnergieEolienne.docx ./docx
+  404  mv EnergieEolienne.pdf ./pdf
+  405  mv EnergieEolienne.odt ./odt
+  406  ls
+  407  rm -r archive-35.zip
+  408  zip
+  409  cd ..
+  410  zip Exercice1
+  411  history
+
